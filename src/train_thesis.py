@@ -28,11 +28,11 @@ def train_thesis_config():
     # 1. DATOS (Augmentation Agresivo para combatir Overfitting)
     train_datagen = ImageDataGenerator(
         preprocessing_function=preprocess_input,
-        rotation_range=2,
-        width_shift_range=0.1,
-        height_shift_range=0.1,
-        shear_range=0.1,
-        zoom_range=0.1,
+        rotation_range=30,
+        width_shift_range=0.2,
+        height_shift_range=0.2,
+        shear_range=0.2,
+        zoom_range=0.2,
         horizontal_flip=True,
         fill_mode='nearest'
     )
