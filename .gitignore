@@ -1,0 +1,11 @@
+# Data and Images
+data/
+logs/
+models/
+
+# Python and System
+pycache/
+*.py[cod]
+venv/
+.env
+.DS_Store
